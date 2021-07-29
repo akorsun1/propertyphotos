@@ -26,3 +26,12 @@ After analyzing both of them, I have decided to continue with Github dataset. Ev
 The goal of this project is to help sellers to present their listed properties in the best possible way by choosing a cover photo which will attract buyers' attention. To achieve my goal I have been using dataset which contains 4 pictures for each house together with prices of that house. During data preprocessing stage I defined a constant baseline which I had to beat. To increase number of pictures and improve prediction results I used augmentation technique but first I used EfficientNet model architecture to scale all dimensions of depth/width/resolution. In the result models training (3 models) I could compare their results(MSE) and picked the best one(Adapted EfficientNet) which beat a baseline. Also, in the notebook you can find images of a houses with true and predicted prices linked to them.
 
 
+## Future work
+
+1. Gather more data
+
+2. Arrange pictures in order (from the most "expensive" to the "cheapest")
+
+3. Find some general patterns which can make a picture look better.
+
+
